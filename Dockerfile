@@ -1,4 +1,4 @@
-FROM maven:latest AS "build"
+FROM maven:latest AS build
 # Environment Variable that defines the endpoint of sentiment-analysis python api.
 COPY . /usr/app
 WORKDIR /usr/app
